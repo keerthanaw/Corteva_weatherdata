@@ -17,9 +17,9 @@ To deploy the API, database, and scheduled data ingestion code, I would use the 
 7.	AWS IAM (Identity and Access Management): To manage access to AWS resources. IAM allows us to create and manage users, groups, and roles, and to assign permissions to them.
 ```
 
-#Here is an overview of my approach
+# Here is an overview of my approach
 
-##For infrastructure set up
+## For infrastructure set up
 
 ```
 1.	Use AWS CloudFormation to create and provision the necessary resources for our application. 
@@ -29,7 +29,7 @@ To deploy the API, database, and scheduled data ingestion code, I would use the 
 5.	Store data files in S3 and utilize IAM to manage access to resources.
 ```
 
-##Once infrastructure is set up
+## Once infrastructure is set up
 
 ```
 1.	Deploy API code and database schema to the EC2 instance. 
