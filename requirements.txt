@@ -1,0 +1,5 @@
+python>=3.6
+django>=3.2
+djangorestframework
+drf-yasg
+pytest
